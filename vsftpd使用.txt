@@ -1,0 +1,15 @@
+                     终端中下载
+1.get name [name1]       //下载到本地机器的当前目录下改名为name1
+2.put name [name2]       //上传到远程目录的当前目录下更名为name2
+
+
+
+FTP>open  [ftpservernname],和指定的远程linux FTP 服务器连接。
+FTP>user  [username] [password],使用指定远程linux FTP服务器的用户登录。
+FTP>pwd   显示远程linux FTP服务器上的当前路径。
+FTP>dir   列出远程Linux FTP服务器上当前路径下的目录与文件。
+FTP>delete [filename],删除远程linux FTP服务器上指定的文件。
+FTP>close  从远程LinuxFTP服务器断开但保留FTP命令参数提示。
+FTP>bye/quit    结束和远程Linux FTP服务器的连接。
+FTP>!  ,直接从远程linux FTP服务器进入到本地shell中。
+
